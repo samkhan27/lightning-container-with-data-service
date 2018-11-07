@@ -1,0 +1,18 @@
+<aura:component 
+    controller="ReactContainerController"  
+    access="GLOBAL" 
+    implements="flexipage:availableForRecordHome,flexipage:availableForAllPageTypes"
+>
+
+    <ltng:require 
+        scripts="{!join(',',$Resource.react + '/search.bundle.js')}" 
+        afterScriptsLoaded="{!c.reactInit}" 
+    />
+
+    <!-- navigation service component-->
+    <lightning:navigation aura:id="navService" />
+
+    <div>
+        <div aura:id="container" />
+    </div> 
+</aura:component>

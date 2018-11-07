@@ -1,4 +1,3 @@
-// FROM: https://github.com/sgupta9591/lightning-application-container/blob/master/src/classes/MetadataServiceUtility.cls
 public class MetadataServiceUtility {
 
 	//Method to build query string based on field set, additional fields and where clause

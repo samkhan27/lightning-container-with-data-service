@@ -1,4 +1,3 @@
-// FROM: https://github.com/sgupta9591/lightning-application-container/blob/master/src/classes/MetadataServiceUtility.cls
 public with sharing class ReactContainerController {
    public class DataServiceException extends Exception {}
 

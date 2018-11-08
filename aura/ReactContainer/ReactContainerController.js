@@ -28,6 +28,7 @@
         const service = Object.assign(navService, createDataService());
 
         const container = component.find("container").getElement();
-        ReactSalesforce.search.init(container, service);
+		const api = ReactSalesforce.search.initApi(service);
+        ReactSalesforce.search.init(container, api);
     }
 })

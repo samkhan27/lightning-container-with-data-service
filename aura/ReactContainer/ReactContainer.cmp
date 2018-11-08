@@ -3,16 +3,15 @@
     access="GLOBAL" 
     implements="flexipage:availableForRecordHome,flexipage:availableForAllPageTypes"
 >
-
     <ltng:require 
-        scripts="{!join(',',$Resource.react + '/search.bundle.js')}" 
+        scripts="{!$Resource.react + '/search.bundle.js'}" 
         afterScriptsLoaded="{!c.reactInit}" 
     />
 
     <!-- navigation service component-->
     <lightning:navigation aura:id="navService" />
 
-    <div>
+    <div style="background-color: white;">
         <div aura:id="container" />
     </div> 
 </aura:component>

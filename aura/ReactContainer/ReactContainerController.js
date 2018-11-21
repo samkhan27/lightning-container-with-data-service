@@ -20,7 +20,6 @@
 
         const navService = {
             navigateToSObjectRecord: function(recordId, sObjectName) {
-                console.log('should navigate');
                 helper.navigateToSObjectRecord(component, recordId, sObjectName);
             }
         }

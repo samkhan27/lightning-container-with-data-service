@@ -3,6 +3,7 @@
     access="GLOBAL" 
     implements="flexipage:availableForRecordHome,flexipage:availableForAllPageTypes"
 >
+
     <ltng:require 
         scripts="{!$Resource.react + '/search.bundle.js'}" 
         afterScriptsLoaded="{!c.reactInit}" 
